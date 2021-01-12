@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "743095953279",
+    "project_id": "booktro-f175b",
+    "storage_bucket": "booktro-f175b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743095953279:android:347aaf2ff384f5a07e1c4a",
+        "android_client_info": {
+          "package_name": "com.example.booktro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743095953279-7n0fk5jl508qu26rqhf5iafsmnd97dq0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.booktro",
+            "certificate_hash": "02cc4b195d03c364190bceb3bff1021602c32c91"
+          }
+        },
+        {
+          "client_id": "743095953279-tj3u58k61ma3gfkrb6kcta6frhmavvgq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7Yne6kAyfvsYpKrPITZCzVhua88c8I4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743095953279-tj3u58k61ma3gfkrb6kcta6frhmavvgq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/btnback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/abc_vector_test" />
+
+            <TextView
+                android:id="@+id/tvgia"
+                android:layout_width="118dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="340dp"
+                android:gravity="center"
+                android:text="Giá phòng" />
+
+            <TextView
+                android:id="@+id/tvota"
+                android:layout_width="118dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="395dp"
+                android:gravity="center"
+                android:text="Mô tả phòng" />
+
+            <TextView
+                android:id="@+id/tvsonguoi"
+                android:layout_width="118dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="270dp"
+                android:gravity="center"
+                android:text="Số người ở/phòng" />
+
+            <TextView
+                android:id="@+id/tvdiachi"
+                android:layout_width="118dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="207dp"
+                android:gravity="center"
+                android:text="Địa chỉ" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <EditText
+                android:id="@+id/edtdichi1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="206dp"
+                android:layout_toEndOf="@+id/tvdiachi"
+                android:layout_toRightOf="@+id/tvdiachi"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edtsonguoio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="272dp"
+                android:layout_toEndOf="@+id/tvsonguoi"
+                android:layout_toRightOf="@+id/tvsonguoi"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edtgia1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="340dp"
+                android:layout_toEndOf="@+id/tvgia"
+                android:layout_toRightOf="@+id/tvgia"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtmota1"
+                android:layout_width="243dp"
+                android:layout_height="133dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="396dp"
+                android:layout_toEndOf="@+id/tvota"
+                android:layout_toRightOf="@+id/tvota"
+                android:hint="Mô tả phòng" />
+
+            <Button
+                android:id="@+id/btnxacnhan1"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="93dp"
+                android:layout_marginLeft="93dp"
+                android:layout_marginTop="571dp"
+                android:gravity="center"
+                android:text="Update"
+                app:backgroundTint="#4CAF50" />
+
+            <ImageView
+                android:id="@+id/avatar1"
+                android:layout_width="274dp"
+                android:layout_height="132dp"
+                android:layout_marginStart="-40dp"
+                android:layout_marginLeft="-40dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_toEndOf="@+id/tvota"
+                android:layout_toRightOf="@+id/tvota"
+                android:background="#FFFFFF"
+                app:srcCompat="@drawable/user" />
+
+            <Button
+                android:id="@+id/btnUpAnh1"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/avatar1"
+                android:layout_marginStart="109dp"
+                android:layout_marginLeft="109dp"
+                android:layout_marginTop="143dp"
+                android:layout_toEndOf="@+id/btnback"
+                android:layout_toRightOf="@+id/btnback"
+                android:text="Tải ảnh lên"
+                app:backgroundTint="#4C61D6" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "438140261007",
+    "project_id": "chat-f2669",
+    "storage_bucket": "chat-f2669.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438140261007:android:f040ec3a8296092fa3d6fa",
+        "android_client_info": {
+          "package_name": "com.example.booktro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438140261007-se42lnl5rjimu7k58rn307pskk4u3pun.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsqocMJphi8FvFoK6ImmPYST8a4mvQwtg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438140261007-se42lnl5rjimu7k58rn307pskk4u3pun.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

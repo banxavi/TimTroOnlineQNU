@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Giá tăng dần"
+        android:id="@+id/giatang" />
+    <item android:title="Giá giảm dần"
+        android:id="@+id/giagiam"/>
+    <item android:title="Số người ở tăng dần"
+        android:id="@+id/nguoitang"/>
+    <item android:title="Số người ở giảm dần"
+        android:id="@+id/nguoigiam"/>
+</menu>

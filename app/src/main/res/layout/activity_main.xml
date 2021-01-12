@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:text="VNĐ"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:gravity="center"
+        android:text="ĐĂNG PHÒNG"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tvdiachi"
+        android:layout_width="118dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="271dp"
+        android:gravity="center"
+        android:text="Địa chỉ" />
+
+    <TextView
+        android:id="@+id/tvsonguoi"
+        android:layout_width="118dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="334dp"
+        android:gravity="center"
+        android:text="Số người ở/phòng" />
+
+    <TextView
+        android:id="@+id/tvgia"
+        android:layout_width="118dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="404dp"
+        android:gravity="center"
+        android:text="Giá phòng" />
+
+    <TextView
+        android:id="@+id/tvota"
+        android:layout_width="118dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="459dp"
+        android:gravity="center"
+        android:text="Mô tả phòng" />
+
+    <EditText
+        android:id="@+id/edtdichi"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="270dp"
+        android:layout_toEndOf="@+id/tvdiachi"
+        android:layout_toRightOf="@+id/tvdiachi"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtuserid"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="202dp"
+        android:layout_toEndOf="@+id/tvdiachi"
+        android:layout_toRightOf="@+id/tvdiachi"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtsonguoio"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="336dp"
+        android:layout_toEndOf="@+id/tvsonguoi"
+        android:layout_toRightOf="@+id/tvsonguoi"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtgia"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="404dp"
+        android:layout_toEndOf="@+id/tvsonguoi"
+        android:layout_toRightOf="@+id/tvsonguoi"
+        android:ems="10"
+        android:inputType="number" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edtmota"
+        android:layout_width="269dp"
+        android:layout_height="140dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="460dp"
+        android:layout_toEndOf="@+id/tvota"
+        android:layout_toRightOf="@+id/tvota"
+        android:hint="Mô tả phòng" />
+
+    <Button
+        android:id="@+id/btnUpAnh"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="196dp"
+        android:layout_toEndOf="@+id/btnback"
+        android:layout_toRightOf="@+id/btnback"
+        android:text="Tải ảnh lên"
+        app:backgroundTint="#4C61D6" />
+
+    <Button
+        android:id="@+id/btnxacnhan"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="635dp"
+        android:text="Post"
+        app:backgroundTint="#4CAF50" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnback"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="158dp"
+        android:layout_below="@+id/textView2"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/upload" />
+
+</RelativeLayout>

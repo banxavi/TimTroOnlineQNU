@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7F7"
+    tools:context=".Home">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="407dp"
+        android:layout_height="47dp"
+        android:background="@drawable/home_bg">
+
+        <TextView
+            android:id="@+id/iduser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="372dp"
+            android:layout_marginLeft="372dp"
+            android:layout_marginTop="8dp"
+            android:hint="ID"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tim1"
+            android:layout_width="294dp"
+            android:layout_height="44dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="List phòng"
+            android:textColor="@color/com_facebook_blue"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/iduser"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ListView
+        android:layout_marginTop="50dp"
+        android:id="@+id/lvroom"
+        android:layout_width="match_parent"
+        android:layout_height="626dp" />
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="712dp"
+        android:background="?attr/colorButtonNormal"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/btnhomeroom"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:src="@drawable/home" />
+
+        <ImageView
+            android:id="@+id/btnaccroom"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/profileicon" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
